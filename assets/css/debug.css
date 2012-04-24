@@ -1,18 +1,20 @@
-/*  DEBUG TOOLS  
+/*  
+
+	DEBUG TOOLS  
 	===========
 	
 	These are just some debug styles to confirm 
 	screen sizes when swooshing around with 
 	resizing the browser for quick testing.
 	
+	Delete this file (and the http call in your pages) 
+	when you're ready to deploy.
+	
 	They compliment this code http://bit.ly/xph4ns
 	
-	Make sure you delete them when you're ready to launch!
-
 */
 
 body:before {
-	/* The body:before is simply for debugging/development. Find out more here http://bit.ly/xph4ns */
 	background: #ffc;
 	width: 96%;
 	padding: .5em 2%;
@@ -44,7 +46,8 @@ body:before { content: "min-width: 1024px/64em"; background: #ecc; }
 body:before { content: "min-width: 1260px/78.75em"; background: pink; }
 }
 
-/* 	The following are some exact breakpoints if you want them, 
+/* 	
+	The following are some exact breakpoints if you want them, 
 	so you can work out screen size for tablets etc. 
 */
 	

@@ -2,45 +2,26 @@
 
 	OFFROAD CODE
 	------------
-	Build Version : 	1.0.0
-	Author : 			james@offroadcode.com
-	Website :			http://www.offroadcode.com
-	Twitter :			@offroadcode
+	Version	:	1.0.0
+	Author 	: 	james@offroadcode.com
+	Website :	http://www.offroadcode.com
+	Twitter :	@offroadcode
 	
 	CONTENTS
 	--------
-	01 : Global resets
-	02 : Global typography & layout rules
+	01 : Global reset
+	02 : Global rules
 	03 : The Website
 	
 	00 : MEDIA QUERIES - Common breakpoints	
 	
-	A note regarding - MEDIA QUERIES
-	--------------------------------
-	Skip to the bottom of the stylesheet, all media queries and breakpoints are in this stylesheet. 
-	
-	This is now based on a mobile first approach and there's more flexibility and convenience in using 
-	inline declarations because there's only one stylesheet to maintain.
-
-	A note regarding - PIXEL WIDTHS
-	-------------------------------
-	To add even more flexibility, all widths are now declared as em units instead of pixels. It's a simple
-	calculation based on: 
-	
-	Required element pixel value ÷ parent font size in pixels = em value
-	So, our required width of 770px in ems can be calculated like this:
-	770 ÷ 16 = 48.125em (Note, EM's only work to 3 decimal places)
-	
-	In this case, the base font size is 16px so widths can be easily worked out. 
-	
 */
 
-/* 01 START : Global reset styles */
+/* 01 START : Global reset */
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent}article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}a{margin:0;padding:0;border:0;vertical-align:baseline;background:transparent}ins,mark{background:#333;color:#fff;text-decoration:none}mark{padding:0 3px;}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}::-moz-selection,::-webkit-selection,::selection {text-shadow:none;background:#333;color:#fff;}.cf:before,.cf:after{content:"";display:table;}.cf:after{clear:both;}.cf{zoom:1;}
-/* 01 END : Global reset styles */
+/* 01 END : Global reset */
 
-/* 02 START : Global typography and layout rules */
-
+/* 02 START : Global rules */
 * { 
 	/* Apply a natural box layout model to all elements - http://paulirish.com/2012/box-sizing-border-box-ftw */
 	-moz-box-sizing: 	border-box; 
@@ -54,14 +35,7 @@ html {
 	line-height: 	1.5;
 	}
 
-html, 
-body,
-[type=text], 
-[type=email], 
-[type=search], 
-[type=submit],
-textarea,
-select { 
+html, body, input, textarea, select { 
 	font-family: 	sans-serif;
 } 
 
@@ -94,14 +68,16 @@ a img {
 
 figure { }
 	figcaption { }
-/* 02 END : Global typography and layout rules */
+/* 02 END : Global rules */
 
-/* 03 START : Start building your website.... */
+/* 03 START : Global styles */
+
+/* 03 END : Global styles */
 
 
 
 
-/* 00 START : MEDIA QUERIES : Some "common" breakpoints */
+/* 00 START : MEDIA QUERIES : Some "common" breakpoints - change these to whatever you like */
 /* 
 	
 	Breakpoint sizes in em's for flexibility: 
