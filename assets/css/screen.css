@@ -42,7 +42,8 @@ body {
 
 /* Set vertical rhythm */
 h1,h2,h3,h4,h5,h6,hgroup,ul,ol,dd,p,figure,pre,table,fieldset,hr {
-    margin-bottom: 1.5rem; /* 24px equivalent */
+    margin-bottom: 24px;
+	margin-bottom: 1.5rem; /* 24px equivalent/fallback */
 	}	
 
 h1, h2, h3, h4, h5, h6 {
