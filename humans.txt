@@ -1,18 +1,22 @@
 /* TEAM */
 
-We are Offroadcode.com - You can follow us @offroadcode. Now here's who done it..
+We are Offroadcode.com - You can follow us @offroadcode.
 
-Design: 	James Young
-Twitter: 	@welcomebrand
-From: 		Huddersfield, West Yorkshire, United Kingdom
+Design: James Young
+Twitter: @welcomebrand
+From: Huddersfield, West Yorkshire, United Kingdom
 	
-Development: 	Pete Duncanson
-Twitter: 	@peteduncanson
-From: 		Huddersfield, West Yorkshire, United Kingdom
+Development: Pete Duncanson
+Twitter: @peteduncanson
+From: Huddersfield, West Yorkshire, United Kingdom
 
-Development:    Stephen Roberts
-Twitter:    	@steroberts89
-From: 		Huddersfield, West Yorkshire, United Kingdom
+Development: John Llewellyn
+Twitter: @madebybear
+From: Huddersfield, West Yorkshire, United Kingdom
+
+Development: Stephen Roberts
+Twitter: @steroberts89
+From: Huddersfield, West Yorkshire, United Kingdom
 
 /* TOOLS */
 

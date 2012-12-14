@@ -23,7 +23,7 @@ body:before {
 	font-size: 12px;
 	font-size: .75rem;
 
-	content: "This is simply debug info using :before on the body - See bottom of /assets/css/debug.css for more info";
+	content: "This is simply debug info using :before on the body - See bottom of /assets/debug.css for more info";
 	}
 
 @media only screen and (min-width: 30em) { 
